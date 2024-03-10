@@ -3,6 +3,7 @@ pipeline {
     stages {
          stage('Checkout') {
             steps {
+                sh 'rm -rf Container'
                 sh 'git clone "https://github.com/Jagruthi111/Container.git"'
             }
         }
