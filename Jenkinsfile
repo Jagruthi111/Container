@@ -6,7 +6,6 @@ pipeline {
                 sh 'git clone "https://github.com/Jagruthi111/Container.git"'
             }
         }
-      stages {
         stage('Build Docker Image') {
             steps {
                 script {
@@ -15,5 +14,4 @@ pipeline {
             }
         }
     }
-  }
 }
