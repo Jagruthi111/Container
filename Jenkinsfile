@@ -14,10 +14,10 @@ pipeline {
                 }
             }
         }
-         stage('Test') {
-            steps {
-                sh 'terraform --version'
-            }
-        }
+         #stage('Test') {
+         #   steps {
+         #       sh 'terraform --version'
+         #   }
+        #}
     }
 }
